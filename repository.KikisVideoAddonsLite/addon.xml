@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <addon id="repository.kiki" name="Kikis Video Addons Lite" version="0.0.1" provider-name="Kiki">
+        <requires>
+            <import addon="xbmc.addon" version="12.0.0"/>
+        </requires>
+        <extension point="xbmc.addon.repository" name="Kikis Video Addons Lite Repo">
+            <info compressed="false">https://github.com/jbrooks1959/KikisVideoAddonsLite/addons.xml</info>
+            <checksum>https://github.com/jbrooks1959/KikisVideoAddonsLite/addons.xml.md5</checksum>
+            <datadir zip="true">https://github.com/jbrooks1959/KikisVideoAddonsLite/Repo</datadir>
+            <hashes>false</hashes>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary>The best working Video Addons of October 30 2017</summary>
+            <description>These are the best working video addons available as of October 30, 2017.
+These have all been tested and known to work.</description>
+            <platform>all</platform>
+    </extension>
+</addon>
